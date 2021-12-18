@@ -1,26 +1,88 @@
 <!DOCTYPE html>
+<html lang="eng">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title></title>
-        <meta name="description" content="">
-
-        <link rel="shortcut icon" href="favicon.ico">
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/html5-boilerplate.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Angel Jane Isaac Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfroj+BmwXdxFFgVK/Kvc"
+        crossorigin="anonymous"/>
+        <link rel="shortcut icon" href="images/octopus.png"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- Font -->
+        <link rel="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'/>
     <body>
-        <p>Hello Front Row Viewers!</p>
+      <header>
+        <div class="logo">
+          <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+          </ul>
+        </nav>
+
+        <!--Introduction-->
+        <section class="intro" id="home">
+          <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Angel Isaac </strong>
+          </h1>
+          <p class = "section__subtitle section__subtitle--intro">and I am a Programer by Profession       </p>
+          <img src="images/profilepic.jpg" alt="KK" class="intro__img">
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+          <h2 class="section__title section__title--about">Who I am</h2>
+          <p class="section__subtitle section__subtitle--about"> Animation and Gaming Enthusiast</p>
+
+          <div class="about-me__body">
+            <p>
+            <em>Smooth flowing movements in animation, and special effects that go with it can make or break my day.</em></p>
+              <p> Personally, I enjoy coding in C++ as I feel it’s more customizable and gives me better control.
+              However, I have worked extensively with Python, C# and even Java.</p>
+              <p> In my Graduate studies, I’ve had the chance to venture into animation and game development.
+              I made a short animation film using C++ and SDL2 and have also developed a fighting-sidescroller-game of my own.
+              I also successfully created a virtual replica of an educational-hex hardware object using Unity and C#.
+              This Unity based hex object educates the masses on the issue of Female Feticide with the help of real-time movement and animation
+              using user key presses and color changing features, all to represent its real-life hardware implementation.
+              In the coming semesters I’ll also be working in Unity to implement Virtual Reality in gaming for which I’m excited.
+            </p>
+        </div>
+
+          </section>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+          <!--My Work-->
+          <section class="my-work" id="work">
+            <h2 class="section__title section__title__work">Who I am</h2>
+            <p class="section__subtitle section__title__work"></p>
+
+            <div class="portfolio">
+              <a href="#" class="portfolio__item">
+                <img src="images/Oct.png" alt="Oct">
+              </a>
+            </div>
+              <img src="images/KK.png" alt="KK">
+              <a href="#work" class="btn"> Git Repo </a>
+            </section>
+
+            <!--footer-->
+            <a href="mailto:angelji@clemson.edu" class="footer__link">angelji@clemson.edu</a>
+            <ul class = "social-list">
+              <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/angel-jane-isaac-74a9a81ab/">Linkedin</a></li>
+              <li class="social-list__item"><a class="social-list__link" href="https://github.com/angelji18?tab=repositories"> GitHub repositories</a></li>
+            </ul>
+
+      </header>
     </body>
 </html>
