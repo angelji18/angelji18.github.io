@@ -275,7 +275,11 @@ nav {
   background-color: transparent;
   text-decoration: underline;
 }
-
+.social-list__link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
 .social-list__link:visited {
   color: white;
   background-color: transparent;
