@@ -48,15 +48,18 @@
           <div class="about-me__body">
             <p>
             <em>Smooth flowing movements in animation, and special effects that go with it can make or break my day.</em></p>
-              <p> Personally, I enjoy coding in C++ as I feel it’s more customizable and gives me better control.
+              <p> Hi again, I'm Angel, a Graduate Student in the School of Computing at Clemson University.
+                I'm also a parttime Graduate Research Assitant and am currently working on developing an app for the Enviornment and Forestry Department of the University.</p>
+                <p>Personally, I enjoy coding in C++ as I feel it’s more customizable and gives me better control.
               However, I have worked extensively with Python, C# and even Java.</p>
-              <p> In my Graduate studies, I’ve had the chance to venture into animation and game development.
+              <p>To talk more about how I bring my passion and profession together; In my Graduate studies, I’ve had the chance to venture into animation and game development.
               I made a short animation film using C++ and SDL2 and have also developed a fighting-sidescroller-game of my own.
               I also successfully created a virtual replica of an educational-hex hardware object using Unity and C#.
               This Unity based hex object educates the masses on the issue of Female Feticide with the help of real-time movement and animation
               using user key presses and color changing features, all to represent its real-life hardware implementation.
               In the coming semesters I’ll also be working in Unity to implement Virtual Reality in gaming for which I’m excited.
             </p>
+            <a href="doc/ResumeGaming.pdf" download="Resume_AngelIsaac" class="btn"> Download Resume </a>
         </div>
 
           </section>
@@ -64,25 +67,59 @@
 
           <!--My Work-->
           <section class="my-work" id="work">
-            <h2 class="section__title section__title__work">Who I am</h2>
-            <p class="section__subtitle section__title__work"></p>
+            <h2 class="section__title section__title--work">My Work</h2>
+            <div class="my-work_body">
+              <p class="section__subtitle section__subtitle--work"> Below you will find a short video and the github links of the source code of some of my recent works</p>
 
-            <div class="portfolio">
-              <a href="#" class="portfolio__item">
-                <img src="images/Oct.png" alt="Oct">
-              </a>
-            </div>
-              <img src="images/KK.png" alt="KK">
-              <a href="#work" class="btn"> Git Repo </a>
+
+
+              <video controls>
+                <source src="video/octopus.mp4" type="video/mp4">
+              </video>
+              <p class="section__my-work_body">This implementation was mostly to figure out the features of SDL2. Here, an Octopus creature moves through a side-scrolling environment kicking balls on its path to finally get a coin at the end of the level.
+              This engine was implemented using SDL2 in C++. <br>
+              <span class="light-text"><i>side note:   I designed and drew the Octopus player character, the collectibles and obstacles, and also the environment tileset</i></span> </p>
+              <a href="https://github.com/angelji18/Octopus-Play" class="btn"> Git Repo </a>
+              <video controls>
+                  <source src="video/KK.mp4" type="video/mp4">
+
+              </video>
+                <p class="section__my-work_body"><strong>Karate Kid</strong> is a side-scroller fight game.
+                  The game progresses as the Main Player Character moves through the environment, defeating the Enemy Characters by combat.
+                  As the player progresses, one enemy at a time, the difficulty in defeating the enemy increases, and after few such enemies, at the end of the game the PC must confront the Main Boss enemy.
+                  To win the game, the player must successfully reach the end and defeat the main boss.
+                  The game must be completed within a specific time limit whilst keeping the PC’s health in check.
+                </p>
+
+                <a href="https://github.com/angelji18/KarateKid" class="btn"> Git Repo </a>
+
+                <video controls>
+                    <source src="video/Empower.mp4" type="video/mp4">
+              </video>
+                <p class="section__my-work_body">
+                  <strong>Empower</strong> is a harwared device that educates the masses about female fetecide rates.
+                  I used UNITY to build a virtual device that closely repereseted the features of the main hadware device.
+                  Using Unity I sucessfully built a "hex-token" that could be moved across the map using the arrow keys
+                   Then, the density of the color of the token represents the variation of ranges in some of the countries where fetecide is an issue.
+                  of fetecide across different counteries. Our main aim here was to show using UNITY what we would want to achieve on the hardware. We set  the hexmap
+                  and named them with some of the countries which would help us show the variations.Here, we start off by removing the color of the token object and setting
+                  a glowing light around it to depict the aspiration that it "glows". As we move aross the map the intensity of the blue and green colors show the changes in fetecide rates, the darker the color the higher the rate.
+                </p>
+
+                <a href="https://github.com/angelji18/Empower" class="btn"> Git Repo </a>
+
+              </div>
             </section>
 
             <!--footer-->
-            <a href="mailto:angelji@clemson.edu" class="footer__link">angelji@clemson.edu</a>
-            <ul class = "social-list">
-              <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/angel-jane-isaac-74a9a81ab/">Linkedin</a></li>
-              <li class="social-list__item"><a class="social-list__link" href="https://github.com/angelji18?tab=repositories"> GitHub repositories</a></li>
-            </ul>
-
+            <div class="footer">
+              <p> <em>email me at: </em><a href="mailto:angelji@clemson.edu" class="footer__link">angelji@clemson.edu</a> </p>
+              <p> <em>Other links</em></p>
+              <ul class = "social-list" style="list-style-type:none;">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/angel-jane-isaac-74a9a81ab/">Linkedin</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/angelji18?tab=repositories"> GitHub repositories</a></li>
+              </ul>
+          </div>
       </header>
     </body>
 </html>

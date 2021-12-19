@@ -55,6 +55,19 @@ img{
 
 }
 
+video{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 650px;
+  height: 400px;
+  padding: 1em;
+  margin-top: 4em;
+
+
+}
+
 strong{ font-weight: var(--fw-bold)}
 
 :focus{
@@ -80,7 +93,7 @@ em{
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
-  margin-top: 4em;
+  margin-top: 1em;
 }
 
 .btn:hover{
@@ -122,6 +135,13 @@ h3{ font-size: var(--fs-h3) }
   margin-bottom: 1em;
 }
 .section__subtitle--about{
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
+  padding: .25em 1em;
+  margin-bottom: 1em;
+
+}
+.section__subtitle--work{
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
   padding: .25em 1em;
@@ -211,4 +231,71 @@ nav {
     text-align: center;
 
   }
+}
+
+
+.my-work{
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+}
+
+@media (min-width: 600px) {
+  .my-work{
+    display: block;
+
+  }
+  .section__title--work{
+    text-align: center;
+  }
+  .section__subtitle--work{
+    text-align: center;
+  }
+
+  .section__my-work_body{
+    text-align: center;
+
+  }
+}
+
+.light-text{
+
+  color: grey;
+}
+
+.footer__link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer__link:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social-list__link:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.social-list__link:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social-list__link:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer{
+  padding: 1em;
+  background-color: var(--clr-accent);
+  text-align: center;
 }
